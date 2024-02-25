@@ -1,0 +1,45 @@
+
+body {
+    padding: 5px;
+}
+
+/* Container to display flex items */
+#content-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start; /* This will space out the items evenly */
+}
+
+/* Individual content items */
+.content-item {
+padding: 6px;
+
+}
+
+.content-item img {
+ max-width: 100%;
+ max-height: auto;
+ display: block;
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+}
+
+
+
+a {
+  text-decoration: none;
+  
+}
+
+.item-title {
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 10px;
+    background-color: #333;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.footer {
+    margin-bottom: 50px;
+}
